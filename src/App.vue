@@ -1,18 +1,19 @@
 <template>
   <div id="app">
     <Toolbar />
-    <NotesContainer />
+    <NoteContainer />
+    <NoteSelectors />
   </div>
 </template>
 <script>
 import Toolbar from "./components/Toolbar.vue";
-import NotesContainer from "./components/NotesContainer.vue";
+import NoteContainer from "./components/NoteContainer.vue";
 
 export default {
   name: "app",
   components: {
     Toolbar,
-    NotesContainer,
+    NoteContainer,
   },
 };
 </script>
